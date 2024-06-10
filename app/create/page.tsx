@@ -71,7 +71,6 @@ const CreateProduct = () => {
     
             await mutation.mutateAsync({ ...product, images: imageUrls });
             
-            // Reset the input value after successfully creating the product
             const imageInput = document.getElementById('image') as HTMLInputElement;
             if (imageInput) {
                 imageInput.value = '';
