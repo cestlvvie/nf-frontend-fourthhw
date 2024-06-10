@@ -1,8 +1,6 @@
-// FlowerIcon.tsx
 import React from 'react';
 
 interface FlowerIconProps extends React.SVGProps<SVGSVGElement> {
-  // You can define additional props specific to your FlowerIcon component here if needed
 }
 
 const FlowerIcon: React.FC<FlowerIconProps> = (props) => {
